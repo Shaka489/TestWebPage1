@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            ul
+            {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                color:white;
+                background-color:rgb(209, 6, 6);
+            }
+
+            li a
+            {
+                color:white;
+                display:block;
+                padding:15px 15px;
+                text-decoration:none;
+            }
+            
+            div.x
+            {
+                li
+                {
+                    float:right;
+                }
+
+                li a:hover
+                {
+                    background-color:rgb(3, 77, 146);
+                    color:white;
+                }
+            }
+            div.y
+            {
+                li
+                {
+                    float:left;
+                }
+                li a:hover
+                {
+                    background-color:rgb(209, 6, 6);
+                    color:rgb(255, 255, 255);
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Contact</h1>
+
+        <div class = "x">
+            <ul>
+                <li><a href = "Contact.html">Contact</a></li>
+                <li><a href = "About.html">About</a></li>
+                <li><a href = "TestWebpage.html">Home</a></li>
+            </ul>
+        </div>
+        <div class = "y">
+            <ul>
+                <li><a href = "Webpage.html">The Jinxed Lab</a></li>
+            </ul>
+        </div>
+        <h3>Jayden (CEO)</h3>
+        <p>Email: jmar489@growbiz.com</p>
+        <p>Phone: 832-791-8402</p>
+        <p>Instagram: DragonRider489</p>
+
+        <h3>Aiden George (CSO)</h3>
+        <p>Email: ageo489@growbiz.com</p>
+        <p>Phone: 832-791-8403</p>
+        <p>Instagram: Night</p>
+
+        <h3>Jonathan (CMO)</h3>
+        <p>Email: jgigi489@growbiz.com</p>
+        <p>Phone: 832-791-8404</p>
+        <p>Instagram: Oshine</p>
+
+        <h3>Alfred (CFO)</h3>
+        <p>Email: aant489@growbiz.com</p>
+        <p>Phone: 832-791-8405</p>
+        <p>Instagram: NewUsername</p>
+
+        <h3>Sam (CSO)</h3>
+        <p>Email: sayn489@growbiz.com</p>
+        <p>Phone: 832-791-8406</p>
+        <p>Instagram: Lemon/Lime</p>
+
+        <h3>Random Employee</h3>
+        <p>Email: remp489@growbiz.com</p>
+        <p>Phone: 346-059-7708</p>
+        <p>Instagram: RandomGuyMan</p>
+    </body>
+</html>
