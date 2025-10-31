@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+
+            body
+            {
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background: linear-gradient(-45deg,rgb(57, 57, 255),rgb(1, 224, 224),rgb(70, 199, 126));
+                background-size: 400% 400%;
+                animation: gradient 15s ease infinite;
+                justify-content: center;
+            }
+
+            ul
+            {
+                list-style-type:none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                color:white;
+                background-color:rgb(209, 6, 6);
+            }
+
+            li a
+            {
+                color:white;
+                display:block;
+                padding:15px 15px;
+                text-decoration:none;
+            }
+            
+            div.x
+            {
+                li
+                {
+                    margin-top:10px;
+                    float:right;
+                }
+
+                li a:hover
+                {
+                    background-color:rgb(3, 77, 146);
+                    color:white;
+                }
+            }
+            div.y
+            {
+                li
+                {
+                    float:left;
+                }
+                li a:hover
+                {
+                    background-color:rgb(209, 6, 6);
+                    color:rgb(255, 255, 255);
+                }
+            }
+
+            @keyframes gradient
+            {
+                0%{background-position: 0% 50%;}
+
+                50%{background-position: 100% 50%;}
+
+                100%{background-position: 0% 50%;}
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <div class = "x">
+            <ul>
+                <h1>About</h1>
+                <li><a href = "Contact.html">Contact</a></li>
+                <li><a href = "About1.html">About</a></li>
+                <li><a href = "TestWebpage.html">Home</a></li>
+            </ul>
+        </div>
+        <div class = "y">
+            <ul>
+                <li><a href = "TestWebpage.html"></a></li>
+            </ul>
+        </div
+        <h4>I love engineering, chemistry, magic, reading, biking, and camping. I plan to go to A&M University in college, but I have some years to go as I'm only a sopphomore this year. Living my best life😉</h4>
+        <br>
+        <img src = "Yep.jpg", width = "500" height = "750">
+    </body>
+</html>
